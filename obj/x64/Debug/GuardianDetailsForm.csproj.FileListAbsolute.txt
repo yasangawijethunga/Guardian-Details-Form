@@ -1,0 +1,11 @@
+C:\Users\Demo User\Desktop\GuardianDetailsForm\bin\x64\Debug\GuardianDetailsForm.exe.config
+C:\Users\Demo User\Desktop\GuardianDetailsForm\bin\x64\Debug\GuardianDetailsForm.exe
+C:\Users\Demo User\Desktop\GuardianDetailsForm\bin\x64\Debug\GuardianDetailsForm.pdb
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.csproj.AssemblyReference.cache
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.GuardianDetailsForm.resources
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.Properties.Resources.resources
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.csproj.GenerateResource.cache
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.csproj.CoreCompileInputs.cache
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.exe
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.pdb
+C:\Users\Demo User\Desktop\GuardianDetailsForm\obj\x64\Debug\GuardianDetailsForm.exe.config
