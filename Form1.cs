@@ -1,8 +1,9 @@
-﻿using System;
+using System;
+using System.ComponentModel;
 using System.Data;
 using System.Data.OleDb;
+using System.Drawing;
 using System.Windows.Forms;
-using System.ComponentModel;
 
 namespace GuardianDetailsForm
 {
@@ -49,6 +50,25 @@ namespace GuardianDetailsForm
             txtAddress.Clear();
             txtContact.Clear();
             txtEmail.Clear();
+        }
+        private void btnSave_MouseEnter(object sender, EventArgs e)
+        {
+            btnSave.BackColor = Color.LimeGreen;
+        }
+
+        private void btnSave_MouseLeave(object sender, EventArgs e)
+        {
+            btnSave.BackColor = Color.SteelBlue;
+        }
+
+        private void btnCancel_MouseEnter(object sender, EventArgs e)
+        {
+            btnCancel.BackColor = Color.LimeGreen;
+        }
+
+        private void btnCancel_MouseLeave(object sender, EventArgs e)
+        {
+            btnCancel.BackColor = Color.SteelBlue;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
