@@ -1,4 +1,4 @@
-﻿namespace GuardianDetailsForm
+namespace GuardianDetailsForm
 {
     partial class GuardianDetailsForm
     {
@@ -46,6 +46,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.AliceBlue;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -85,9 +86,11 @@
             // 
             // grpGuardianType
             // 
+            this.grpGuardianType.BackColor = System.Drawing.Color.Transparent;
             this.grpGuardianType.Controls.Add(this.rdoFather);
             this.grpGuardianType.Controls.Add(this.rdoMother);
             this.grpGuardianType.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grpGuardianType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.grpGuardianType.Location = new System.Drawing.Point(13, 13);
             this.grpGuardianType.Name = "grpGuardianType";
             this.grpGuardianType.Size = new System.Drawing.Size(114, 44);
@@ -101,7 +104,7 @@
             this.rdoFather.AutoSize = true;
             this.rdoFather.Location = new System.Drawing.Point(60, 20);
             this.rdoFather.Name = "rdoFather";
-            this.rdoFather.Size = new System.Drawing.Size(55, 17);
+            this.rdoFather.Size = new System.Drawing.Size(58, 17);
             this.rdoFather.TabIndex = 1;
             this.rdoFather.Text = "Father";
             this.rdoFather.UseVisualStyleBackColor = true;
@@ -114,7 +117,7 @@
             this.rdoMother.Checked = true;
             this.rdoMother.Location = new System.Drawing.Point(6, 20);
             this.rdoMother.Name = "rdoMother";
-            this.rdoMother.Size = new System.Drawing.Size(58, 17);
+            this.rdoMother.Size = new System.Drawing.Size(63, 17);
             this.rdoMother.TabIndex = 0;
             this.rdoMother.TabStop = true;
             this.rdoMother.Text = "Mother";
@@ -125,7 +128,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(133, 10);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(338, 50);
@@ -137,6 +140,7 @@
             // 
             this.lblStudentID.AutoSize = true;
             this.lblStudentID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblStudentID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentID.Location = new System.Drawing.Point(13, 60);
             this.lblStudentID.Name = "lblStudentID";
             this.lblStudentID.Size = new System.Drawing.Size(114, 30);
@@ -146,16 +150,19 @@
             // 
             // txtStudentID
             // 
+            this.txtStudentID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtStudentID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtStudentID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentID.Location = new System.Drawing.Point(133, 63);
             this.txtStudentID.Name = "txtStudentID";
-            this.txtStudentID.Size = new System.Drawing.Size(338, 20);
+            this.txtStudentID.Size = new System.Drawing.Size(338, 23);
             this.txtStudentID.TabIndex = 3;
             // 
             // lblFullName
             // 
             this.lblFullName.AutoSize = true;
             this.lblFullName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblFullName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFullName.Location = new System.Drawing.Point(13, 90);
             this.lblFullName.Name = "lblFullName";
             this.lblFullName.Size = new System.Drawing.Size(114, 30);
@@ -165,16 +172,19 @@
             // 
             // txtFullName
             // 
+            this.txtFullName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtFullName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtFullName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFullName.Location = new System.Drawing.Point(133, 93);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(338, 20);
+            this.txtFullName.Size = new System.Drawing.Size(338, 23);
             this.txtFullName.TabIndex = 5;
             // 
             // lblNIC
             // 
             this.lblNIC.AutoSize = true;
             this.lblNIC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNIC.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNIC.Location = new System.Drawing.Point(13, 120);
             this.lblNIC.Name = "lblNIC";
             this.lblNIC.Size = new System.Drawing.Size(114, 30);
@@ -184,16 +194,19 @@
             // 
             // txtNIC
             // 
+            this.txtNIC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNIC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtNIC.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNIC.Location = new System.Drawing.Point(133, 123);
             this.txtNIC.Name = "txtNIC";
-            this.txtNIC.Size = new System.Drawing.Size(338, 20);
+            this.txtNIC.Size = new System.Drawing.Size(338, 23);
             this.txtNIC.TabIndex = 7;
             // 
             // lblOccupation
             // 
             this.lblOccupation.AutoSize = true;
             this.lblOccupation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblOccupation.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOccupation.Location = new System.Drawing.Point(13, 150);
             this.lblOccupation.Name = "lblOccupation";
             this.lblOccupation.Size = new System.Drawing.Size(114, 30);
@@ -203,16 +216,19 @@
             // 
             // txtOccupation
             // 
+            this.txtOccupation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtOccupation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtOccupation.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOccupation.Location = new System.Drawing.Point(133, 153);
             this.txtOccupation.Name = "txtOccupation";
-            this.txtOccupation.Size = new System.Drawing.Size(338, 20);
+            this.txtOccupation.Size = new System.Drawing.Size(338, 23);
             this.txtOccupation.TabIndex = 9;
             // 
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
             this.lblAddress.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddress.Location = new System.Drawing.Point(13, 180);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(114, 60);
@@ -222,7 +238,9 @@
             // 
             // txtAddress
             // 
+            this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtAddress.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAddress.Location = new System.Drawing.Point(133, 183);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
@@ -233,6 +251,7 @@
             // 
             this.lblContact.AutoSize = true;
             this.lblContact.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblContact.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContact.Location = new System.Drawing.Point(13, 240);
             this.lblContact.Name = "lblContact";
             this.lblContact.Size = new System.Drawing.Size(114, 30);
@@ -242,16 +261,19 @@
             // 
             // txtContact
             // 
+            this.txtContact.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtContact.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtContact.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContact.Location = new System.Drawing.Point(133, 243);
             this.txtContact.Name = "txtContact";
-            this.txtContact.Size = new System.Drawing.Size(338, 20);
+            this.txtContact.Size = new System.Drawing.Size(338, 23);
             this.txtContact.TabIndex = 13;
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.Location = new System.Drawing.Point(13, 270);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(114, 30);
@@ -261,14 +283,17 @@
             // 
             // txtEmail
             // 
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEmail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(133, 273);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(338, 20);
+            this.txtEmail.Size = new System.Drawing.Size(338, 23);
             this.txtEmail.TabIndex = 15;
             // 
             // panelButtons
             // 
+            this.panelButtons.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.panelButtons, 2);
             this.panelButtons.Controls.Add(this.btnCancel);
             this.panelButtons.Controls.Add(this.btnSave);
@@ -281,31 +306,47 @@
             // btnCancel
             // 
             this.btnCancel.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnCancel.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
             this.btnCancel.Location = new System.Drawing.Point(368, 8);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(80, 30);
             this.btnCancel.TabIndex = 1;
             this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
             this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnSave.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnSave.FlatAppearance.BorderSize = 0;
+            this.btnSave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LimeGreen;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Location = new System.Drawing.Point(278, 8);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(80, 30);
             this.btnSave.TabIndex = 0;
             this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // GuardianDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(484, 361);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MinimumSize = new System.Drawing.Size(500, 400);
             this.Name = "GuardianDetailsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
